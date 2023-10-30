@@ -1,5 +1,6 @@
 import os
 import re
+import csv
 import requests
 
 
@@ -74,8 +75,10 @@ def policija_cez_leto(policija):
 for policija in slovar:
     policija_cez_leto(policija)
 
-print(slovar_leto["Gwent Police"])
-    
 #tako smo dobili slovar, ki ima za ključe ime postaje in za vrednost zeznam števil storjenih prekrškov
 #slovar_leto pa ima za ključe imena postaj, za vrednosti pa slovarje v katerih so prešteti posamezni prekrški
 #po mesecih (od septembra 2022 do avgusta 2023), ki so ključi.
+
+
+
+            
