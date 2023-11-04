@@ -10,8 +10,7 @@ def v_csv(ime_csv, zločini, slovar_pomozni):
         for element in slovar_pomozni:
             writer.writerow(element)
 
-#Anti-social behaviour = ASB
-#vozniški prekrški = vozila
+
 zločini = ["mesec", "antisocialno vedenje", "vlom", "rop", "vozniški prekrški", "nasilje", "kraja v trgovini", "požig ali poškodovanje lastnine", "ostale kraje", "prekrški povezani z drogami", "preostali prekrški", "kraja kolesa", "posedovanje orožja", "motenje javnega miru", "oropanje osebe"]
 for enota in slovar_leto:
     sez = []
