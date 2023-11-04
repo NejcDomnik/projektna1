@@ -7,7 +7,7 @@ import pandas
 
 
 
-
+#ta datoteka obstaja samo zato ker me je opozorilo, da sem prevečkrat vstopil na stran in mi ni več želel prepisati html kode.
 
 
 
